@@ -1,0 +1,13 @@
+{
+  "defaultAction": "SCMP‰°®¢p>GL¥nQ´&$àΩ-7HÅI…_DêyëdΩ3Ÿˇ 8`”Â)»_ACT_ERRNO",
+  "architeútures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86",
+    "SCMP_ARCH_X32"
+  ],
+  "syscalls": [
+    {
+      "names": [
+        "_llseek",
+        "_newselect",
+ 

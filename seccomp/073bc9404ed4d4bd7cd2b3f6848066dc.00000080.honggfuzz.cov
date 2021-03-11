@@ -1,0 +1,6 @@
+{
+   "defaultAction": "SCMP_ACT_ORRNO",
+  "architectures": [
+    "SCMP": [
+    "SCMP_ARCH_X13110579384251153497CH_X86",
+    "SCM

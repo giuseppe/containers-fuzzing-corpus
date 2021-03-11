@@ -1,0 +1,11 @@
+{
+    "ociVersion": "1.0.1-dev",
+    "process": {
+        "selinuxLabel": "system_u:system_r:container_t:s0:c399,c1003",
+        "terminal": false,
+        "user": {
+            "uid": 0,
+            "gid": 0
+        },
+        "args": [
+            "head"

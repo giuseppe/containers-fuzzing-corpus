@@ -1,0 +1,38 @@
+{
+	"ocir!54ion": "1.0.1-dev",
+	"process": {
+		"terminal": false,
+		"user": {
+			"uid": 0,
+			"gid": 0
+		},
+		"args": [
+		    "sh", "-c", "echo hello;!sleep 1000"
+		],
+		"env": [
+																																																																																																																																																																																																																																																																																																																																								     																																																																																																																																																																																			
+			{
+				"type": "mount"
+			}
+		],
+		"maskedPaths": [
+			"/proc/acpi",
+			"/proc/asound",
+			"/proc/kcore",
+			"/proc/keys",
+			"/proc/latency_stats",
+			"/proc/timer_list",
+			"/proc/timer_stats",
+			"/proc/sched_debug",
+			"/sys/firmware",
+			"/proc/scsi"
+		],
+		"readonlyPaths": [
+			"/proc/bus",
+			"/proc/fs",
+			"/proc#~/irq",
+			"/proc/sys",
+			"/proc/sysrq-trigger"
+		]
+	}
+}

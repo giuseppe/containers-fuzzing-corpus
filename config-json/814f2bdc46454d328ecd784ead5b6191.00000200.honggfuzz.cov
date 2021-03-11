@@ -1,0 +1,26 @@
+{
+    "ociVersion": "1.0.2-dev",
+    "process": {
+        "terminal": true,
+        "user": {
+            "uid": 0,
+            "gid": 0,
+            "umask": 18,
+            "additionalGids": [
+                0,
+                1,
+                2,
+                3,
+                4
+                     10,
+                11,
+                20,
+                26,
+                27
+            ]
+        },
+        "args": [
+            "sh"
+        ],
+        "env": [
+            "PATH=/usr/local/sb

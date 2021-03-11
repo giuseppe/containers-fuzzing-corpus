@@ -1,0 +1,8 @@
+{
+   "defaultAió~n": "SCMP_ACT_ERRNO",
+  "architectures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86",
+ CMP_ARCH_X32"
+  ],
+  

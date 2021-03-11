@@ -1,0 +1,574 @@
+{
+    "ociVeri: ": "1.0.0",
+    "process": {
+	"terminal": false,
+	"user": {
+	    "uid": 0,
+	    "gid": 0
+	},
+	"args": [
+	    "mkdir", "/tmp/foo"
+	],
+	"env": [
+	    "PATH=/IIIIIIIIIIIII5IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIc6IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIP_NET_BIND_SERVICE"
+	    ],
+	    "inheritable": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ],
+	    "permitted": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXYWPYVRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIusr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+	    "TERM=xterm"
+	],
+	"cwd": "/",
+	"capabilities": {
+	    "bounding": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ],
+	    "effective": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII       IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII       !IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIbIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII.*/03IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII$IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIND_SERVICE"
+	    ],
+	    "ambient": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ]
+	},
+	"noNewPrivileges": true
+    },
+    "root": {
+	"path": "rootfs",
+	"readonly": true
+    },
+    "hostname": "crun",
+    "mounts": [
+	{
+	    "destination": "/proc",
+	    "type": "proc",
+	    "source": "proc"
+	},
+	{
+	    "destination": "/dev",
+	    "type": "tmpfs",
+	    "source": "tmpfs",
+	    "options": [
+		"nosuid",
+		"strictatime",
+		"mode=755",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/dev/pts",
+	    "type": "devpts",
+	    "source": "devpts",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"newinstance",
+		"ptmxmode=0666",
+		"mode=0620"
+	    ]
+	},
+	{
+	    "destination": "/dev/shm",
+	    "type": "tmpfs",
+	    "source": "shm",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"mode=1777",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/sys",
+	    "type": "sysfs",
+	    "source": "sysfs",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/sys/fs/cgroup",
+	    "type": "cgroup",
+	    "source": "cgroup",
+	    "options": [
+		"none",
+                "name=systemd",
+		"noexec",
+		"nodev",
+		"relatime",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/dev/mqueue",
+	    "type": "mqueue",
+	    "source": "mqueue",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev"
+	    ]
+	}
+    ],
+    "linux": {
+        "cgroupsPath": "/system.slice/run-rebf3d897cab84580a8241402c74069b2.scope/container",
+	"namespaces": [
+	    {
+		"type": "pid"
+	    },
+	    {
+		"type": "network"
+	    },
+	    {
+		"type": "ipc"
+	    },
+	    {
+		"type": "uts"
+	    },
+	    {
+		"type": "mount"
+	    }
+	],
+
+        "seccomp": {
+            "defaultErrnoRet": 38,
+            "defaultAction": "SCMP_ACT_ERRNO",
+            "architectures": [
+                "SCMP_ARCH_XRQUXV",
+                "SCMP_ARCH_X86",
+                "SCMP_ARCH_X32"
+            ],
+            "syscalls": [
+                {
+                    "names": [
+                        "accept",
+                        "accept4",
+                        "access",
+                        "adjtimex",
+                        "alarm",
+                        "bind",
+                        "brk",
+                        "capget",
+                        "capset",
+                        "chdir",
+                        "chmod",
+                        "chown",
+                        "chown32",
+                        "clock_getres",
+                        "clock_gettime",
+                        "clock_nanosleep",
+                        "close",
+                        "connect",
+                        "copy_file_range",
+                        "creat",
+                        "dup",
+                        "dup2",
+                        "dup3",
+                        "epoll_create",
+                        "epoll_create1",
+                        "epoll_ctl",
+                        "epoll_ctl_old",
+                        "epoll_pwait",
+                        "epoll_wait",
+                        "epoll_wait_old",
+                        "eventfd",
+                        "eventfd2",
+                        "execve",
+                        "execveat",
+                        "exit",
+                        "exit_group",
+                        "faccessat",
+                        "fadvise64",
+                        "fadvise64_64",
+                        "fallocate",
+                        "fanotify_mark",
+                        "fchdir",
+                        "fchmod",
+                        "fchmodat",
+                        "fchown",
+                        "fchown32",
+                        "fchownat",
+                        "fcntl",
+                        "fcntl64",
+                        "fdatasync",
+                        "fgetxattr",
+                        "flistxattr",
+                        "flock",
+                        "fork",
+                        "fremovexattr",
+                        "fsetxattr",
+                        "fstat",
+                        "fstat64",
+                        "fstatat64",
+                        "fstatfs",
+                        "fstatfs64",
+                        "fsync",
+                        "ftruncate",
+                        "ftruncate64",
+                        "futex",
+                        "futimesat",
+                        "getcpu",
+                        "getcwd",
+                        "getdents",
+                        "getdents64",
+                        "getegid",
+                        "getegid32",
+                        "geteuid",
+                        "geteuid32",
+                        "getgid",
+                        "getgid32",
+                        "getgroups32",
+                        "getitimer",
+                        "getpeername",
+                        "getpgid",
+                        "getpgrp",
+                        "getpid",
+                        "getppid",
+                        "getpriority",
+                        "getrandom",
+                        "getresgid",
+                        "getresgid32",
+                        "getresuid",
+                        "getresuid32",
+                        "getrlimit",
+                        "get_robust_list",
+                        "getrusage",
+                        "getsid",
+                        "getsockname",
+                        "getsockopt",
+                        "get_thread_area",
+                        "gettid",
+                        "gettimeofday",
+                        "getuid",
+                        "getuid32",
+                        "getxattr",
+                        "inotify_add_watch",
+                        "inotify_init",
+                        "ino`atify_init1",
+                        "inotify_rm_watch",
+                        "io_uring_enter",
+                        "io_cancel",
+                        "ioctl",
+                        "io_destroy",
+                        "io_getevents",
+                        "ioprio_get",
+                        "ioprio_set",
+                        "io_setup",
+                        "io_submit",
+                        "ipc",
+                        "kill",
+                        "lchown",
+                        "lchown32",
+                        "lgetxattr",
+                        "link",
+                        "linkat",
+                        "listen",
+                        "listxattr",
+                        "llistxattr",
+                        "_llseek",
+                        "lremovexattr",
+                        "lseek",
+                        "lsetxattr",
+                        "lstat",
+                        "lstat64",
+                        "madvise",
+                        "memfd_create",
+                        "mincore",
+                        "mknod",
+                        "mknodat",
+                        "mlock",
+                        "mlock2",
+                        "mlockall",
+                        "mmap",
+                        "mmap2",
+                        "mprotect",
+                        "mq_getsetattr",
+                        "mq_notify",
+                        "mq_open",
+                        "mq_timedreceive",
+                        "mq_timedsend",
+                        "mq_unlink",
+                        "mremap",
+                        "msgctl",
+                        "msgget",
+                        "msgrcv",
+                        "msgsnd",
+                        "msync",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "pwrite64",
+                        "pwritev",
+                        "pwritev2",
+                        "read",
+                        "readahead",
+                        "readlink",
+                        "readlinkat",
+                        "readv",
+                        "recv",
+                        "recvfrom",
+                        "recvmmsg",
+            "recvmsg",
+                      "remap_file_pages",
+                        "removexattr",
+                        "rename",
+                        "renameat",
+                        "renameat2",
+                        "restart_syscall",
+                        "rmdir",
+                        "rt_sigaction",
+                        "rt_sigpending",
+                        "rt_sigprocmask",
+                        "rt_sigqueueinfo",
+                        "rt_sigreturn",
+                        "rt_sigsuspend",
+                        "rt_sigtimedwait",
+                        "rt_tgsigqueueinfo",
+                        "sched_getaffinity",
+                        "sched_getattr",
+                        "sched_getparam",
+                        "sched_get_priority_max",
+                        "sched_get_priority_min",
+                        "sched_getscheduler",
+                        "sched_rr_get_interval",
+                        "sched_setaffinity",
+                        "sched_setattr",
+                        "sched_setparam",
+                        "sched_setscheduler",
+                        "sched_yield",
+                        "seccomp",
+                        "select",
+                        "semctl",
+                        "semget",
+                        "semop",
+                        "semtimedop",
+                        "send",
+                        "sendfile",
+                        "sendfile64",
+                        "sendmmsg",
+                        "sendmsg",
+                        "sendto",
+                        "setfsgid",
+                        "setfsgid32",
+                        "setfsuid",
+                        "setfsuid32",
+                        "setgid",
+                        "setgid32",
+                        "setgroups",
+                        "setgroups32",
+                        "setitimer",
+                        "setpgid",
+                        "setpriority",
+                        "setregid",
+                        "setregid32",
+                        "setresgid",
+                        "setresgid32",
+                        "setresuid",
+                        "setresuid32",
+                        "setreuid",
+                        "setreuid32",
+                        "setrlimit",
+                        "set_robust_list",
+                        "setsid",
+                        "setsockopt",
+                        "set_thread_area",
+                        "set_tid_address",
+                        "setuid",
+                        "setuid32",
+                        "setxattr",
+                        "shmat",
+                        "shmctl",
+                        "shmdt",
+                        "shmget",
+                        "shutdown",
+                        "sigaltstack",
+                        "signalfd",
+                        "signalfd4",
+                        "sigreturn",
+                        "socket",
+                        "socketcall",
+                        "socketpair",
+                        "splice",
+                        "stat",
+                        "stat64",
+                        "statfs",
+                        "statfs64",
+                        "symlink",
+                        "symlinkat",
+                        "sync",
+                        "sync_file_range",
+                        "syncfs",
+                        "sysinfo",
+                        "syslog",
+                        "tee",
+                        "tgkill",
+                        "time",
+                        "timer_create",
+                        "timer_delete",
+                        "timerfd_create",
+                        "timerfd_gettime",
+                        "timerfd_settime",
+                        "timer_getoverrun",
+                        "timer_gettime",
+                        "timer_settime",
+                        "times",
+                        "tkill",
+                        "truncate",
+                        "truncate64",
+                        "ugetrlimit",
+                        "umask",
+                        "uname",
+                        "unlink",
+                        "unlinkat",
+                        "utime",
+                        "utimensat",
+                        "utimes",
+                        "vfork",
+                        "vmsplice",
+                        "wait4",
+                        "waitid",
+                        "waitpid",
+                        "write",
+                        "writev",
+                        "mount",
+                        "umount2",
+                        "reboot",
+                        "name_to_handle_at",
+                        "unshare"
+                    ],
+                    "action": "SCMP_ACT_ALLOW"
+                },
+                {
+                    "names": [
+                        "getgroups"
+                    ],
+                    "action": "SCMP_ACT_ERRNO"
+                },
+                {
+                    "names": [
+                        "personality"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                            "value": 0,
+                            "op": "SCMP_CMP_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "personality"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                            "value": 8,
+                            "op": "SCMP_CMP_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "personality"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                            "value": 131072,
+                            "op": "SCMP_CMP_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "personality"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                            "value": 131080,
+                            "op": "SCMP_CMP_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "personality"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                                 "value": 4294967295,
+                            "op": "SCMP_CMP_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "arch_prctl"
+                    ],
+                    "action": "SCMP_ACT_ALLOW"
+                },
+                {
+                    "names": [
+                        "modify_ldt"
+                    ],
+                    "action": "SCMP_ACT_ALLOW"
+                },
+                {
+                    "names": [
+                        "clone"
+                    ],
+                    "action": "SCMP_ACT_ALLOW",
+                    "args": [
+                        {
+                            "index": 0,
+                            "value": 2080505856,
+                            "op": "SCMP_CMP_MASKED_EQ"
+                        }
+                    ]
+                },
+                {
+                    "names": [
+                        "chroot"
+                    ],
+                    "action": "SCMP_ACT_ALLOW"
+                }
+            ]
+        },
+
+	"maskedPaths": [
+	    "/proc/kcore",
+	    "/proc/latency_stats",
+	    "/proc/timer_list",
+	    "/proc/timer_stats",
+	    "/proc/sched_debug",
+	    "/sys/firmware"
+	],
+	"readonlyPaths": [
+	    "/proc/asound",
+	    "/proc/bus",
+	    "/proc/fs",
+	    "/proc/irq",
+	    "/proc/sys",
+	    "/proc/sysrq-trigger"
+	]
+    }
+}

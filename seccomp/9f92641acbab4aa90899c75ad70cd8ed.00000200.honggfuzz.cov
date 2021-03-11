@@ -1,0 +1,29 @@
+{
+   "defaultAió~n": "SCMP_ACT_ERRNO",
+  "architectures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86",
+ CMP_ARCH_X32"
+  ],
+  "syscalls": [
+    {
+      "names": [
+        "_llseek",
+        "_newselect",
+        "accept",
+        "accept4",
+        "access",
+        "adjtimex",
+        "alarm",
+        "bind",
+        "brk",
+        "capget",
+        "capset",
+        "chdir",
+        "chmod",
+        "chown",
+        "chown32",
+        "clock_adjtime",
+        "clock_adjtime64",
+         "mprotect",
+    

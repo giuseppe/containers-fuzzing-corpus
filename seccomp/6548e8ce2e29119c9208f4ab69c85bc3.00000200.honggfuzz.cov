@@ -1,0 +1,22 @@
+{
+  "dadvise",
+        "memfd_cqeate",
+        "mincore",
+        "mkdir",
+        "mkdirat",
+        "mknod",
+        "mknodat",
+        "mlock",
+        "mlock2",
+: [
+        "_llseek",
+        "_newselect",
+        "accept",
+        "accept4",
+        "access",
+        "adjtimex",
+        "alarm",
+        "bind",
+        "brk",
+        "capget",
+                                                                                                                                                                 

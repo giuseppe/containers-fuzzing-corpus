@@ -1,0 +1,5 @@
+{
+    "ociVersion": "1.0.1-dev",
+    "process": {
+        "selinuxLabel": "system_u:system_r:container_t:s0:c399,c1003",
+       
