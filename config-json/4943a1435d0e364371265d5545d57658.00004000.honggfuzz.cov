@@ -1,0 +1,204 @@
+{"ociVersion":"1.0.2-dev","pcess":{"user":{"uid":0,"gid":1,"additionalGids":[0,1,2,3,4,6,10,11,20,26,27]},"args":["/bin/sh","-c","echo hello"],"env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","HOSTNAME=3207b88579a1"],"cwd":"/","capabilities":{"bounding":["CAP_AUDIT_WRITE","CAP_CHOWN","CAP_DAC_OVERRIDE","CAP_FOWNER","CAP_FSETID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETGID","CAP_SETPCAP","CAP_SETUID","CAP_SYS_CHROOT"],"effective":["CAP________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ],
+	    "permitted": [
+		"CAP_AUDIT_WRITE",
+				"CAP_NET_BINMWXRYQD_SERVICE"
+	    ],
+	    "ambient": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ]
+	},
+	"noNewPrivileges": true
+    },
+    "root": {
+	"path": "rootfs",
+	"readonly": true
+    },
+    "hostname": "crun",
+    "mounts": [
+	{
+	    "destination": "/proc",
+	    "type": "proc",
+	    "source": "proc"
+	},
+	{
+	    "destination": "/dev",
+	    "type": "tmpfs",
+	    "source": "tmpfs",
+	    "options": [
+		"nosuid",
+		"strictatime",
+		"mode=755",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/dev/pts",
+	    "type": "devpts",
+	    "source": "devpts",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"newinstance",
+		"ptmxmode=0666",
+		"mode=0620"
+	    ]
+	},
+	{
+	    "destination": "/dev/shm",
+	    "type": "tmpfs",
+	    "source": "shm",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"mode=1923",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/sys",
+	    "type": "sysfs",
+	    "source": "sysfs",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/sys/fs/cgroup",
+	    "type": "cgroup",
+	    "source": "cgroup",
+	    "options": [
+		"none",
+                "name=systemd",
+		"noexec",
+		"nodev",
+		"relatime",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/dev/mqueue",
+	    "type": "mqueue",
+	    "source": "mqueue",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev"
+	    ]
+	}
+    ],
+    "linux": {
+        "cgroupsPath": "/system.slice/run-rebf3d897cab84580a8241402c74069b2.scope/container",
+	"namespaces": [
+	    {
+		"type": "pid"
+	    },
+	    {
+		"type": "network"
+	    },
+	    {
+		"type": "ipc"
+	    },
+	    {
+		"type": "uts"
+	    },
+	    {
+		"type": "mount"
+	    }
+	],
+
+        "seccomp": {
+            "defaultErrnoRet": 38,
+            "defaultAction": "SCMP_ACT_ERRNO",
+            "architectures": [
+                "SCMP_ARCH_XRQUXV",
+                "SCMP_ARCH_X86",
+                "SCMP_ARCH_X32"
+            ],
+            "syscalls": [
+                {
+                    "names": [
+                        "accept",
+                        "accept4",
+                        "access",
+                        "adjtimex",
+                        "alarm",
+                        "bind",
+                        "brk",
+                        "capget",
+                        "capset",
+                        "chdir",
+                        "chmod",
+                        "chown",
+                        "chown32",
+                        "clock_getres",
+                        "clock_gettime",
+                        "clock_nanosleep",
+                        "close",
+                        "connect",
+                        "copy_file_range",
+                        "creat",
+                        "dup",
+                        "dup2",
+                        "dup3",
+                        "epoll_create",
+                        "epoll_create1",
+                        "epoll_ctl",
+                        "epoll_ctl_old",
+                        "epoll_pwait",
+                        "epoll_wait",
+                        "epoll_wait_old",
+                        "eventfd",
+                        "eventfd2",
+                        "execve",
+                        "execveat",
+                        "exit",
+                  "exit_group",
+                        "faccessat",
+                        "fadvise64",
+                        "fadvise64_64",
+                        "fallocate",
+                        "fanotify_mark",
+                        "fchdir",
+                        "fchmod",
+                        "fcdir","mkdirat","mknod","mknodat","mlock","mlock2","mlockall","mmap","mmap2","mount","mprotect","mq_setattr","mq_notify","mq_open","mq_timedreceive","mq_timedsend","mq_unlink","mremap","msgctl","msgget","msgrcv","msgsnd","msync","munlock","munlockall","munmap","name_to_handle_at","nanosleep","newfstatat","open","openat","openat2","pause","pipe","pipe2","pivot_root","poll","ppoll","prctl","pread64","preadv","preadv2","prlimit64","pselect6","pwrite64","pwritev","pwrited","readahead","readlink","readlinkat","readv","reboot","recv","recvfrom","recvmmsg","recvmsg","remap_file_pages","removexattr","rename","renameat","renameat2","restart_syscall","rmdir","rt_sigaction","rt_sigpending","rt_sigprocmask","rt_sigqueueinfo","rt_sigreturn","rt_sigsuspend","rt_sigtimedwait","rt_tgsigqueueinfo","sched_get_priority_max","sched_get_priority_min","sched_getaffinity","sched_getattr","sched_getparam","sched_getscheduler","sched_rr_get_interval","sched_setaffinity","sched_setattr","sched_setparam","sched_setscheduler","sched_yield","seccomp","select","semctl","semget","semop","semtimedop","send","sendfile","sendfile64","sendmmsg","sendmsg","sendto","set_robust_list","set_thread_area","set_tid_address","setfsgid","setfsgid32","setfsuid","setfsuid32","setgid","setgid32","setgroups","setgroups32","setitimer","setpgid","setpriority","setregid","setregid02","setresgid","setresgid32","setresuid","setresuid32","setreuid","setreuid32","setrlimit","setsid","setsockopt","setuid","setuid32","setxattr","shmat","shmctl","shmdt","shmget","shutdown","sigaltstack","signalfd","signalfd4","sigreturn","socket","socketcall","socketpair","splice","stat","stat64","statfs","statfs64","statx","symlink","symlinkat","sync","sync_file_range","syncfs","sysinfo","syslog","tee","tgkill","time","timer_create","timer_delete","timer_getoverrun","timer_gettime","timer_settime","timerfd_create","timerfd_gettime","timerfd_settime","times","tkill","truncate","truncate64","ugetrlimit","umask","umount","umount2","uname","unlink","unlinkat","unshare","utime","utimensat","utimes","vfork","vmsplice","wait4","waitid","waitpid","write","writev"],"action":"SCMP_ACT_ALLOW"},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"indexalue":0,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":8,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALKOW","args":[{"index":0,"value":131072,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":131080,"op":"SCMP_CMP_EQ"}]},{"names":["personality"],"action":"SCMP_ACT_ALL","args":[{"index":0,"value":4294967295,"op":"SCMP_CMP_EQ"}]},{"names":["arch_prctl"],"action":"SCMP_ACT_ALLOW"},{"names":["modify_ldt"],"action":"SCMP_ACT_ALLOW"},{"names":["clone"],"action":"SCMP_ACT_ALLOW","args":[{"index":0,"value":2080505856,"op":"SCMP_CMP_MASKED_EQ"}]},{"names":["chroot"],"action":"SCMP_ACT_ALLOW"},{"names":["socket"],"action":"SCMP_ACT_ALLOW"}]},"maskedPaths":["/proc/acpi","/proc/kcore","/proc/keys","/proc/latency_stats","/proc/timer_list","/proc/timer_stats","/proc/sched_debug","/proc/scsi","/sys/firmware","/sys/fs/selinux","/sys/dev"],"readonlyPaths":["/proc/asound","/proc/bus","/proc/fs","/proc/irq","/proc/sys","/proc/sysrq-trigger"],"mountLabel":"system_u:object_r:container_file_t:s0:c296,c613"}}
+                                                                                                                              ¥'Ô%†ĞLé-cÊiËK¥Š53ÍJiªJgu Q¿”a†ÏèC¹º¶<99­Íæ#,	úÏ$¡CÚoãû¨ÈŸQğ/]Ô`>&"E’Q	Ù°³°;¯Lóú^~¬‡…J™J·à3Šn£HåÑ­İÁ¤kÅ_c»^‘
+E-—p©zÄ×!Ï‡	’uø½,: EZ'<Öåæbb@Ü²Z»íÔÑÉÂ«c¹W¢0[ÔÌË­·\s¦Ô20€Á€½;Æhkº»,>b-%±G	ğšÃ‚5’ía(ÏS;ëµÁvdÂŠ[›—} b©YÚÂØb9T@NÆ31˜%¢¥;%'Äì|‹<Xäªß\•{—qâbÑ·—·Öµ¡°<º-å?…Æà„3†¿şÄÌ}h3ö|µ<"!ád^…õLßï™—û'\Mæ»©$ö_ğ&CÒ	B=î’K“tÕ+µ©õÌ÷!‘É\`ÄAı®å™b!t ´Ğœˆõ’"°Ébûì.%ÂÙ?®@+”^—ØNS`FB‚CÖæêëékEÁ]E¥J®HVJŸ:+¡¯EsLŸYáE­ãjÈôJ–*öÎU/Ø¶	.T]"up:=‘LÔ¥ÛØÏ³Äü×œ6áó˜ÈÃ»ÏL—ü3(t¬CË…ãŠLwØígçıuU˜¯4í&‹¸"‰È6Ú”|Ì%IåÇYr;™ø-M€=jC²VÍÿ"š&’éQ8_%¦xûHƒ½¬¹F¸(ÚbşT<ö¬.³{¹~T·ÉnE%ôlsP¯„-QKo·	qwÃ"ìŒ¢Ò¢Ùtë!Çd-Èò‘7©<rAC³öÀá®;–¢‰6‹œÈñ!åÊDümÕà‰àæbğÚ9Š·ƒ ´PG_snÁßx'!€·¯€0ë®¡¹› ÿ²A#ƒµ=NayNãGsÿ×íeÓÖ¯\(ä3™SÍü¨¦w6ÓfUD"z|ÆpïûıS¿é_:Ç[7±¯ˆ–pU[Æ/­õÙ)PàTLWB†ßk,[c\­&âÂOnqòÌ«™¶ŒnÕÊâQÿƒãç‘6%@ù¦”®Ç+l™³6khÓØ×jû½M a0¦Ô}Kv€ŸİVjVSÔ»–İşLˆB£áŒ-®-Gá‰9F×'w~°®$ ø
+&—ÈtDè¾@JïPA(½(Îø[Ñ–™ò¸½ÚEÕDØÖAD`Q6éº]Ú_ÈÚ0·r!ÿ1f•£Mø†jˆ
+Á¹>˜8ÿçCúûoÍãÇjĞTL¤ØFíôÌóo‘ç`AÁpìôyè~4Â0Éñ“ƒØ†‚üIô ¡‡ÙÇ¶u:ÿ—)­Õ‹vèÌ)_$ıtŠtÅAÆö²í@ Ç&ãg.íszB²Yjaô‚k|?sZ_›”$vïk\ùÌùÌ9\ÜÑjpbˆ|½éÌ‹>2»ímUBO\¡%%"BsØ÷|fd±¹äÿĞß[¶èİ“Õu!®¬:êrÕV4ÿÜp§]“Ìâ:-öĞ2÷Tq»SJ`­ïít
+­N¥±¹¥Ñ¹iQ­Ú%]Ú–L¢±Ë¾€çj-¾Gà¿¬÷´¤KÇİu±5…ğíÈÇMGé'Ó¼™9­p‡DüÊƒÚX:l”¶ò‘Ösp:ÿ¹ÇÍ#öy±%pâÒ6ËTˆé&:,†8\Ë•Hµ­Ò1Õ©‰Sµ7Fn-è~Ho{}„Ë6TĞ-2@Æù1×òÓ£ºØUÁ¾:É-SM²Ñâ$>z!PÊ?ŠßøÈ`¶ä“ÍwzñùfµõıÃäÚÓëÛBgæ3´/ÇGs'o%¿À¦³M96z.ÕğĞcûöŒ²·4ÉzƒëNîÔU€’Í=˜°™şUÏ¹±æcÉ'ÅŠoÂ»ÆwwjOıï©=±_"‡œËÒâ‹ó*ÛŞUåâĞÏV¿ÀaS£b‚+¡($ºÕñ´‹+|\k9,·ÒúÔ°m8Š;qàˆ¯f#ÈQ§õ©i¹R>\üœVQDÌ}µìÍ¬~jßvI æ±¡ğÏMÎÖFéh®ˆÂrëAtÿd•à„,Õê:6« ^zÛàQ ğ¬ë‰QÁ°¢Æp<¾ì¬)ÿÔ<Ç²Û‘ï‘ÆÖ‹—å¯3nÆMïÅÀtxèöı›IEÎÇ“fÒÌ˜ß|©áH’]w Â¨ÜjM±ŒLáŞ?C?Ò·Qu€3 ÏÕkÙ4%Ì_ÎYm³Âmªê²>ÄÅ„½GYÖëĞªX"¬sˆ‘:ô‹…ò“7ü y*fˆ7Ù$/ÕKĞÎ>¯¥™™ª¦SvíújI…•İİ*™"Ú¡ÃÔºK½‰í½°v;¦ò•WgËıæ;‚FšúrpÂ™•C|Ê§ÿøsJ)Fêÿ¢şá°¸ÜíıÜ2Mx»Åœ•fğ_›‰á&œµ{äsyËÁØ’ûÌ¼ˆ_E†&Kæ¹úÁWéïDc•V¹ôã9á$>ÈP#ÕÉzt VDÑ4ô bjVMıˆ{kÄG[çúbªÆ|`Œ0‚vbG‹ŞåP'à«a¥‹fh¤Ä£|‘şŒs™¢œë;u•gåO§oE4(¬‡_ô#ÑqöÎÇç:Û¼Cù8gqD¨CİŒô51>òãÜ¾Ûd°Ëøû«… 5qËëo/Z	|`ƒ:H¼ËOÅ]±×­ù£šóVÚd–7W8B¹Ë3XU`4ïƒs2ƒ(ùÿi²hy›"§Á „
+-Õó4îx÷~n×Ê4À¾r-‘O¸1$„KÀ`à5Ì(ÖáfÓ±úÊKˆçş´ÎÂÅkÆ&(#9^Vİ]%ë3÷+cÒæÏ˜¤u½;¿·ÏH*:%®åK;g ½}•JpÍ‘«bĞ¯ÙïÍû>g0³wDËì«µxê¨x!¦z[Øvú‚:m«š’0¾“@bJßØR¾ş7£Ø yºó9³2Ñ¬¤÷h’;œçè î°n÷’¹ÑfyrÖ1tûwd±i°,ˆ€ä\Î¹Ş^lK¤¡Şú‚Öí“ñûºÀÖ¿üÓ»t}¦&Â³Z-s-]Ì“äÖòñ+¿Ó`t/ìÏ,^]«‰ŠÓÊ23Y.NªA˜¾|±Á>Íf\şóóe7²©‚¡¯çÔ.)[]Ñ‹q>s£‹•$yÆÃ½ìtÖG8Çøš¬Dí2ÛÈB¡á0ëhKŠiŒ²‘'İ<÷ÔË†sq{°7Ú¥µ³òífáé;TO¼zó¬Œs@–SÄ ‚ªp‘5
++±FŠ†Z Ò+Yls@B·£øCˆáÒAB¼ÂHÕVÓªãØw]@œÁaí+Şwã%ÍÖÜ¶¨u`Sé‘yºLL×ûu¯ßÄ|nıå`ıÎ±š~#L1m»ßjU§‘öÎÚïEÑmÌ}"ÚÖ?¶ñíÄ=¢~=$U-N¡RT9±‘&Û™[F£[ŠË*•%ÇºÓ¼á7Oıõîï£Ï=M°ìçŠïıXs>MÓşüJ©½.‘—b'd[’ŸùN|k¸\6J¡ğ”ÀRì¸rªôÙ	këd*Ş¤Õf‡k•v_¶E8bqõuu¼¢lİ …Ëb”³‰·=„ÜvYr‡@ô_S^.P7`üæ¦U±›2ÿ<×ñà¶æù}m	k8Õ)ÆĞî:Ï:¤ıtG­ZGw)Ù]Å5µÛUb*,¹>‡Èê,4?4Q¾®w‡–ªlWöÇ²ŒÛŞwP•ëJ2â&Óƒv?è`€uGW,âŞU¿5÷“š2Mx4 ‰L ÍÄ.8„ÓëĞóˆlwDM·T¥k)>Ñ!,˜w7aß£Ç3¸³‘zßEîŞñu÷~ËDÔcvn :=G˜«^zçšn%©	PDŒÒeüäo-láSíYûÃœ’ãÃTÜZ
+?³ Yb‹ßm L#DU»©HcEa‚ÉÅ¸t-n›	¢²gµ ÅÈäcB.xêAsìCÊŸDZRƒH~’/ïÃD
+’»añy¢<}TDz\ÜÿÆV¡Gj¦ªí'9WÏ?zt¢·Ih¤§k­w’¼Ú~•yzKC0¥/d3ê>°h)ªõŠ3oÑÃØ‡§{0«ÿ·Glè&VÙ”Ë ºäûIU>†ïŒô4œ<¿$ûZ]$Àâ¤ùwÇª¢1:!>±qUÏƒôõñàEÅmòÂØ+W	Úœ®¬ |®øÈ	G”ñ¹=®T¬Ï™3× qœÂÆ¹ìh=ÑÁ,gj³Ù,Ôá¹ÓĞZÔ±4ÚcoËê[IáÑBÏzÎ¿øey^´°Ş,ê
+å£ª2ÿïş^@Qå¤Ûsl,»L†Û×Ì¹;Ä˜T	Œ…|é£ó4$i`VşªöÄê]iUÖ—rç!v8N<gõ&½@œ”º|ñùú5 õ³*Hr„ (ÆôN*BŠH  µå#Öµ¬ğµébƒ›ı¿¨:5QáĞìS¸bªÂ„3S\)ÄóWŸ+ÛÔ^Ä¢'¨‹¶H7´-¼œoË}‹6åäÿ›~A_’,z†<‚,)äN-§v†N“öŒÁñµVÀtæ@H‹Å •™ïÃ¿ Ú¹nLÜñØ]ƒT×@P$’_Gm¯ßº•»jğ¿š‘Y/²‡ª°¯7Ù©sF²ş¸­…69ÑŞe¡s¶¸
+„†0û\y!‘f!¯U{ş#O¥ê]xÃ¯g¯ÇÓ\-kÂe'2·\¦PÀØˆğ…Ús›¥T¬ ‚–Œ)_vğ%Ù.â»ÜÅ[¯ßïØ¡záÑË£?Ô¤èş)¿k=ÁDg[Z)ÚHcÛpÏ÷ª_…ŠŞ¥™hŠ·ú9ú¦ìôÓJ–é	¬•òæÏXyDx¢ñ´?{¨JÄØ°uSV¼0Kd`¡ñYdr×·m½sÿìc¶—jîŸ™ø&4Âò9úJœ(Õ,FêˆóBO]O3ÉÚ…è—"p×TÙpJ®ócöVyµ‘vÉœŸ%ø¡©¯ÊË¢“äàt^YfÉà°KpKaì#³²iJ¾:¦ƒç3-»Õ™š¸)°ë~zÖpšGÈ7,±Ößÿe7t\ŸŒ×Ê«/÷²<pğ{#75Ş
+PoÌäşèCŒKîÓELf|[Ó½F°iumF×K›Ÿ¼3ì³ôêÙØ«Møucè(j^İ-¾È!IÜP¼sNªÅEr›è|<÷%&(ŒåúÌ_Ø£'n>7@·|OÖ,¼$‚Wİ>üäçÁúYZLL\E{î:¢wj‹ÒùQVa×Å¢KÙ9—­37¤C¼…yšõş÷düíª?ïóeÓHÛ;›ş*/3r-™[ˆ¨&gN'7-ìààD÷…xn]=.é¼È|Â\æÏ“—"_yÅôÁOÔª}òÖÙ)Úˆôt( {.qÌ¨X¬¸ÎºÛD„üs›¨øøº×Zœ£fCcƒ9Ö¸–Ñ°q¶£IB[+-K”[_ÌïÎ0‚Ÿ	ıÜ“%õ/µHÜ"yXUÕMÄß,İõ»3U|2‚Ú¡ï6V…D3—„'©-mV­¹#êGAïÎ_M 3<JÙä…=KlöÒÏ—zÏÎ>'³Qà°^Ö,æÁøµb¶F´SlQÁÈ°zÙÅÚ¦	
+­^?ğ_‹³İ(#‘-ÿ¼8]£‡ú¢ÈtDÏåÇ¹¸©•<¬¾	[İ¬‚à!Ö°÷KÑı5Ñ]Ë°ª‘x».BƒHç+‡¶€ÓïçÚ0¶5½ñÏó™†ş šsø+§™–áàÑ¶RÜÅÄ0?÷€“·ÌS)¾‡ş‹¥J„…Õz:Ózä”·‹”…Òxª:ˆª(	B¯K:Òs(â@’‚‚nGòT!UÜµHÔìı‚@kÛÀRà/]ÓAéAş¨pÎˆÎ|±¶±“°¶¼Á~ÙŒbáêFõĞş¾é=iiE2Ê±—)$¹<wh ©#‚±½™”c ªé¥Šù,…ÌÔ±İ:÷îcLmT„bÊÈ½}Í'h`×æm5™¶jQD×—ê‹+WE3P$ªa—Ş„•qL"ÎÁ+&«?N·h¯\ÀödØªı•®ş§´7Uî<¼JZƒqÏ&æØÒÆÔ-àG]ïÅ¥XçÀ+Ñ¨Jí\îHìwmƒ(ZĞ×Ì$9ZHx-şX%MoÒ/ ñRÙ}Z$kER…g7TIpÚz˜,ã7Ö’¦i ›„†p³/{«O)Œ`ßıô›Ìü“1À/û„Ø¯«å:JO¦tqìí!¹fÙ@›qİSÆU]fÎp¾+©èøç‰âa/^³œZZßãFÇ{9«J¬Ih‚)‘–]p7‰c(M=©w |&ğÍ„	_É¸ÓÆtêº~qM.»òQÖÒíÏ›Ş±»Šëÿë³C¾5éw >7‡…È®)S*?¡”Àó´O‹3É§ãê)Ñ”æG÷ÌYµ1=™
+ Íã	 
+cvSâ²‘šÉ‡ü®ÔUæ[G=Yf‰º)‹“ï½¹˜u?Üµnê‹-?&É}l0‡É(EíÓçNZå{M+Êˆ—#d|P>Óœ*Ö6CÄ­‰]lù©[ú/r3 !‹;ş®c¡ºLøÙûã˜0)@t–d
+kæ±¨X#™FoÍe$â
+ûQe¹À74í_ÀõôÃ§Â {Ÿt/±ÄÌ¬MMÏ¼¹æC.@|Æ¬è¥ù¯-– jÈ=ØkZó–¿ÅtİëÙLÀÒ¶D=`˜{*Ú(˜ ÌÕ¦Y«\Æù+‘‚CÉJŠŸñ°sÑyôjeŠ|Q2CÅæõœ]ô|hÌÑDÛúKègCGõxù<Q^ÀN¥«Œ¢æ~+ ,½X…Ÿ{ÏK*z{$®Û7`«BQÙ/¨†€p½nz¦	g‘D½ËæÑŠë;Íı”eİ/h”\×qœ)IÛ.•v ú¢ï2ÇŞq+·@DW‘mƒÅK7MùÀ.jânbä•€¿(á‡·QºúŞ?İ”û„Ç½§ÆD”<³C€©*jyKµg“·­ô¡ô9Äè!bU­÷Ì¥±ï]»£Âl´¡yÉ–cT4RŞj›C¥"©WI&W©YM1›F0ª¶B¡Ë
+ááx¯©İ?„~=diyŞ&5æ°®`©#1p;\BÎrÆ	Æ_ŒÆ‰‰¹V¾_ —¾xCGxè[û¿@P^ÑR‹\HeM7‚i_§®EOR×ôoÃê‹.¨™şœÔ.aSÙv¥bwÓÏÀßt‚QÖÇ}‘VS~çØ#(‚°úú/-süŞt§¸Ï^ºÿ Q,ÔŞü£Ú‘’³cö>‰Ú)ùjBŞ‡„şää‹>dI·`2Æ~yÉò€¨–*Âüc¦ŸÚ|xw›á+î(M?~ú/9ÇÂ˜ÊlI^!°—ô ÷İÖH¼ÍìÉ·8vƒJ©~¡òå»£|š÷:N XQşŠ¼U¶ïˆm"Ğ†7FW±¾Äüğ#Ïm¬ZŸ.ä®d´TÓĞ£¥7§ÇÂÕ ş¿q8î ¼rÑZ¨$¯BR¨ˆŠaİæÆÕ­c~rİÿm®ØA"^ó÷U}äan*&¤9}ıÏ+W¢e´¬H®$Î
+ˆıÌ­Hç¢"”Rm\Ğû„Dc0(Md7%Û\µ÷©ßùÜo«!èâÈüáw>=U_¤Ñ;ê[\F4Úi‘6+A/?ş,ÄõÚisV­¤"&¡MM³ò‰DusÕ®|‹ÃLSuóò—_*|ŞiJ
+‹˜±´ñŒ@¦ß
+¬Epoj®m ştk‡u¸ÁÁSpëÎÇ'ƒ+…®E<j
+†ymt†­/-O†Ù¡§©ø`F!åÆ5Ìc¸,í\3šÙÇÁ×}­å$nLš&Y‘óiîÀ»ş˜­ò9‹"Ùèå²'8„YQÏpFû©Ûu0v‚¦\EË~ãÕü¹/à§¢·ĞƒKŒÖ¨ÀW{4;‘Ë÷{ÁöªÑŠ5Ô9¨ˆË€C&…™6¯JÏÃñª¥ÏúDñ³ÑÜGá”¨¹ÌsùDèó„
+'k ) ôuÛwĞ•-¥?ÑãM§}n´Ñ•Y°VêüÅúÑŸÕ0õTö5ı”÷ÆàcìØ«ß„çRæûT5oá	}-½¿3üá‘¹9€@¼g&¥4¯´<Çªô HùÃ}Ü}ñdøQyY®C¾ÌNQí!æõÜùŞÑKë'¿ãÉâ7ûÙ¯£=pS”ª-˜ øL%Hü ßjºÂ'§c7²9VŞ4eŠ0lÍşdˆ~†‚ó¦d7aû¨ªcĞO/óí/¡Ï9¹Q>şScFW—Öt3LÉUf$Æ¸în»€U®Ú¢;ˆ%©Ïi	aˆzî{²^8DP¿%æQ>¨$-^/ép»èç;Cj¼AW7(œ“·§´kòĞ˜TaÏJVªü¼b$:­œI‡fç* ÁúûÅiz‹ZÄY¼›X#é0hCa­\©~LtÙ?ÿzœbìyÍùÍ&¢hŞ ‘"¬6únóV-+TÀs
+“|İÄÎ’ç¾fÌ¥è'…rËXäÙEÇ¨0<ãe?ƒô‚ïeŒ?æÃ¬Úå÷‡3TM¥dÊUXµ‘*oö„8‡,öUa¯ì1ŸG±ŒuĞÖ’l©§í¹u„L< qBÁ
+Pƒ“¬ïuİ5¤)B|ìsuœ´•:úuÉi×‘<‘ˆu5{lånèÒ±vQ8g—„V×ûµ‰A¨Ów‚z¾É9§aÒ ŒÓñ^~™L^ô˜Ç-§"(ÖP-PR€¡½ö‡csé0ŒÙ÷h–»?€šÙù_§±jÉ—ø‰X†½"Z@Â§¬²Å,wÁFqj;’`®A’×ãZ5ªş£€`Ğ]ë™åşÛ XøT¶åKïÃ˜poàçjü'Ü³XeXéAÈü›o	®Tó«´y :šŠG£øuÀ:hj6\‰p7Øv tÂT"ªü '•,î&îê:ç
+œ”Åü|_Ø N#E‰ÊÈÄA©RÅ‹,–4NŸeÕ²×†äEµh{ØuQÜ-½
+{ö
+²=J-:ÆŸ"»±ºİÌ:|
+Q T­P´u¡Ö®¦W}ŒÍŸ>Ì™P%µ.áÏ†ÄÌğ@Ñ‰³½Uş()íd¨‚bc>ôPWÕh¶2FXâÅß3
+9KÕÎî¼äQgm”¯h.-à§8ÌÅ›¡ıìñÀ!„¯ÀXr‹Æ†rgbvZtXè/p&m†'q€	¸	otT3Ê›·95_üëåêÍ9‚ğ'»	şz$Âdƒ¥Ã×½ßçƒ*©1,Äs„4&A"0¹´”;|±baƒû"YlÃ$WÌú.ñW‰ÃŸÉE[NhÂ&\hİh±Oçr1 7côk ëïà*Ôz¡îÏÓê½*¼Öh^ ŸUÓÙ02~¬ü„¢eJ/ùµÑ¢Õ*ı§^Ñ¿rş“öĞF»‹…Ã	à%í¨a
+ï”©M·ÊN*¸bˆyìusÆ4(‘˜É”9ñ»üÕNù™~ÅÑà„K6vâZ+4 ùØïÿ7«“*¬¦e+ÿŞ?‰I¸VÆ:’r´$¦œGå‡iÙ€&€$ğº!ó¹Õô![,×Ã‚2ÀL„É[hñ¬îBº	3t+;¯H©¥\WÁ,8´8+õY©Éa¿™»Ça¶í ¯¦QRo¸3æ¹¨üŠ˜›?û6!)¥ÔüG(WıÆë¶á |g[ù».¥PÛ†ÑøüÏ½¿Z:h¡’§jİåvU~Y÷Ü…dAÿğ¹÷¦RÍ$»“‚…Oƒ7²äŸiO«+ØĞÖÍŸ)d|©í.e:­q8sTgÃĞ/¬v)ÛM>Õ´Éˆ1°0İ£cğéQ[}ñw“˜MÒª ÆFÃ6cU•HF¥';pÚé.}>hmè&Q3–ÁãÙÈ_™;­ ”ğ=â:^³ÓŠY_Ò%ĞÖ·‹RÈ­jmQD«dY9”SábW’“z£ š]œöô)>¾ê»u£!œMû€ä)è­}©İ‚ ãh¥¯çj.şĞïJô?Íİ.pnªõÁSº@_ÿNêÄ™
+^¤-$XªÏÓ¥]õ¯+.‘ZGƒÈI\/»~ •ı…âVBíD ğÊâ¼ª¿S›‹Õ2ÅÒ`¤ÃÕ}°àxùWÙÈC¼7¼V8?À•¢³ìÛvA»â

@@ -1,0 +1,28 @@
+{
+	"ociVersion": "1.0.41-d5v",
+	"process": {
+		"terminal": false,
+		"user": {
+			"uid": 0,
+			"Iid": 0
+		},
+		"args": [
+		    "sh", "-c", "echo hello; sleep 1000"
+		],
+		"env": [
+			"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+			"TERM=xterm"
+		],
+		"cwd": "/",
+		"capabilities": {
+			"bounding": [
+				"CAP_AUDIT_WRITE",
+				"CAP_KILL",
+				"CAP_NET_BIND_SERVICE"
+			],			"effective": [
+				"CAP_AUDIT_WRITE",
+				"CA*   LL",
+				"CAP_NET_BIND_SERVICE"
+			],
+			"inheritable": [
+				"CA

